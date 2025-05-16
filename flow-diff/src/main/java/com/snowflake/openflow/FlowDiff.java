@@ -70,9 +70,7 @@ public class FlowDiff {
         final Set<FlowDifference> diffs = getDiff(pathA, pathB);
         final Set<String> bundleChanges = new HashSet<>();
 
-        System.out.println("> [!NOTE]");
-        System.out.println("> This GitHub Action is created and maintained by [Snowflake](https://www.snowflake.com/).");
-        System.out.println("### Executing Snowflake Flow Diff for flow: " + flowName);
+        System.out.println("### Executing NiFi Flow Diff for flow: " + flowName);
 
         System.out.println("#### Flow Changes");
 
